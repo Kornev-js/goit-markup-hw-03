@@ -1,0 +1,148 @@
+:root {
+  --primary-text-color: #212121;
+  --background-color: #2f303a;
+  --accent-color: #2196f3;
+  --second-text-color: #f5f4fa;
+  --third-text-color: #757575;
+}
+
+body {
+  background-color: #f5f4fa;
+  color: var(--primary-text-color);
+  list-style: none;
+  font-family: Roboto, serif;
+  letter-spacing: 0.03em;
+}
+ul {
+  list-style: none;
+}
+
+.logo {
+  text-decoration: none;
+  color: var(--primary-text-color);
+  font-weight: 700;
+  font-family: Raleway, serif;
+  font-size: 26px;
+}
+
+.navigation-logo {
+  color: var(--accent-color);
+}
+
+.navigation-link {
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 14px;
+  color: var(--primary-text-color);
+}
+
+.active {
+  color: var(--accent-color);
+}
+
+.navigation-link:hover,
+.navigation-link:focus {
+  color: var(--accent-color);
+}
+
+.main-section {
+  background-color: var(--background-color);
+  color: var(--second-text-color);
+}
+
+.main-title {
+  font-size: 44px;
+}
+
+.button {
+  font-family: Roboto, serif;
+  font-weight: 700;
+  background-color: var(--accent-color);
+  border: inherit;
+  border-radius: 2px;
+  color: var(--second-text-color);
+  cursor: pointer;
+}
+
+.section-title {
+  text-transform: uppercase;
+  font-weight: 700;
+
+  font-size: 14px;
+}
+
+.section-description {
+  font-weight: 400;
+  color: var(--third-text-color);
+}
+
+.section-heading {
+  font-size: 36px;
+}
+
+.section-name {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.section-position {
+  font-size: 16px;
+  color: var(--third-text-color);
+}
+
+.footer {
+  background-color: var(--background-color);
+}
+
+.address {
+  font-style: normal;
+}
+
+.address p {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.footer-logo,
+.address p {
+  color: var(--second-text-color);
+}
+
+.address .link {
+  color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.link:hover,
+link:focus {
+  color: var(--accent-color);
+}
+
+.hidden-title {
+  visibility: hidden;
+}
+
+.portfolio-button {
+  font-family: Roboto, serif;
+  font-weight: 500;
+  font-size: 16px;
+  border: none;
+  border-radius: 2px;
+}
+.portfolio-button:focus,
+.portfolio-button:hover {
+  background-color: var(--accent-color);
+  color: var(--second-text-color);
+}
+
+.portfolio-title {
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+}
+
+.portfolio-description {
+  color: var(--third-text-color);
+}
