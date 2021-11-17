@@ -45,6 +45,10 @@ ul {
   color: var(--accent-color);
 }
 
+.contacts .navigation-link {
+  color: var(--third-text-color);
+}
+
 .main-section {
   background-color: var(--background-color);
   color: var(--second-text-color);
@@ -72,6 +76,7 @@ ul {
 }
 
 .section-description {
+  font-size: 14px;
   font-weight: 400;
   color: var(--third-text-color);
 }
