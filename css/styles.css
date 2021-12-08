@@ -29,10 +29,6 @@ p {
   padding: 0 15px;
 }
 
-.main {
-  margin-bottom: 94px;
-}
-
 .header {
   display: flex;
   padding: 32px 0;
@@ -94,12 +90,8 @@ p {
   margin-left: auto;
 }
 
-.main-section {
-  text-align: center;
-  background-color: var(--background-color);
-  color: var(--second-text-color);
-  padding: 200px;
-  margin-bottom: 94px;
+.line {
+  border: 1px solid #ececec;
 }
 
 .main-title {
@@ -120,11 +112,19 @@ p {
 .section {
   display: flex;
   flex-wrap: wrap;
+  padding: 94px 0;
 }
 
 .peculiarities {
   display: flex;
-  margin-bottom: 94px;
+}
+
+.main-section {
+  display: block;
+  text-align: center;
+  background-color: var(--background-color);
+  color: var(--second-text-color);
+  padding: 200px;
 }
 
 .peculiarities .item {
@@ -152,7 +152,6 @@ p {
 .section-heading {
   text-align: center;
   font-size: 36px;
-  margin-bottom: 50px;
 }
 
 .section-name {
@@ -174,10 +173,6 @@ p {
 
 .section-team-list {
   display: flex;
-}
-
-.section-team {
-  margin-bottom: 94px;
 }
 
 .section-team-item {
@@ -205,20 +200,15 @@ p {
 .address p {
   font-size: 14px;
   font-weight: 400;
-  margin-bottom: 9px;
 }
 
 .footer-logo {
-  margin-bottom: 20px;
+  line-height: 31px;
 }
 
 .footer-logo,
 .address p {
   color: var(--second-text-color);
-}
-
-.address-item {
-  margin-bottom: 9px;
 }
 
 .address .link {
@@ -240,7 +230,6 @@ p {
 .portfolio-navigation {
   display: flex;
   justify-content: center;
-  margin-bottom: 56px;
 }
 
 .potfolio-navigation-item {
@@ -270,10 +259,15 @@ p {
 .projects li {
   margin-right: 30px;
   margin-bottom: 30px;
+  border-bottom: 1px solid #eeeeee;
 }
 
 .projects li:nth-child(3n) {
   margin-right: 0;
+}
+
+.projects li:nth-child(n + 7) {
+  margin-bottom: 0;
 }
 
 .portfolio-title {
@@ -285,5 +279,6 @@ p {
 
 .portfolio-description {
   padding-left: 24px;
+  margin-bottom: 20px;
   color: var(--third-text-color);
 }
